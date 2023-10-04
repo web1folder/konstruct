@@ -1,0 +1,247 @@
+/* Default CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* CSS */
+body {
+	margin: 0;
+
+	font-display: swap;	
+	font-family: 'Bebas Neue', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+
+}
+
+/* Contaner for header */
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.container1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	background: #00A4E5;
+}
+
+/* Header */
+.intro {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+
+	background: url(../img/bg/bg.png) center no-repeat;
+	background-size: cover;
+}
+
+.logo {
+	position: absolute;
+	margin-top: 10px;
+	
+	animation: 2s anim-lineUp ease-out 1;
+}
+
+/* First information text */
+.intro__title {
+	margin-top: 5rem;
+	margin-left: 2rem;
+	letter-spacing: 0.5rem;
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	
+	animation: 3s anim-lineUp ease-out 1;
+}
+
+/* Animation for text */
+@keyframes anim-lineUp {
+	0% {
+	  opacity: 0;
+	  transform: translateY(20%);
+	}
+	20% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+  }
+
+.intro__title__after {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: center;
+	font-size: 17px;
+	line-height: 18px;
+	color: #fff;
+	animation: 4s anim-lineUp ease-out 1;
+}
+
+.intro__title__end {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.5rem;
+	color: #fff;
+	font-size: 11px;
+	
+	transform: translate(0,350px);
+	display: flex;
+	justify-content: center;	
+	
+}
+
+/* Navbar container */
+.container__nav {
+	display: flex;
+	justify-content: space-between;
+
+	max-width: 100%;
+	width: 1440px;
+	height: 65px;
+	margin: 0 auto;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Border */
+.container__for__border {
+	height: 65px;
+	border: solid 2px #E6E6E6;
+}
+
+/* Navbar */
+.header-nav__nav {
+	display: flex;
+	justify-content: end;
+}
+
+.logo2 {
+	display: block;
+	margin-top: 20px;	
+}
+
+.text__dec {
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 600;
+	font-size: 13px;
+	text-decoration: none;
+	color: #48555B;
+	display: inline-block;
+	margin: 20px;
+	transition: .2s linear;
+}
+
+.text__dec:hover {
+	color: #00A4E5;
+}
+
+/* Our story */
+.our__story__box {
+	background-color: #48555B;
+	margin-top: 58px;
+	margin-left: auto;
+    margin-right: auto;
+	
+	width: 1440px;
+	height: 400px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.conteiner__for__decor {
+	margin-left: auto;
+    margin-right: auto;
+	max-width: 100%;
+	width: 200px;
+	height: 25px;
+}
+
+.our__story__inf {
+	font-size: 18px;
+	font-weight: bolder;
+	letter-spacing: .3rem;
+
+	display: flex;
+	justify-content: center;
+}
+
+.span {
+	margin: 0 auto;
+	right: 915px;
+	width: 65px;
+	border-bottom: 3px solid #00A4E5;
+	padding-bottom: 18px;
+
+}
+
+/* Container for information */
+.container__for_info {
+	background: #ff5608;
+	width: 640px;
+	height: 181px;
+	margin-top: 116px;
+}
+
+.prewive__info__ {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	
+	font-weight: bold;
+}
