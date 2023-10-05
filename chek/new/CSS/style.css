@@ -194,13 +194,13 @@ body {
 
 /* Our story */
 .our__story__box {
-	background-color: #48555B;
+	background-color: #b1adad;
 	margin-top: 58px;
 	margin-left: auto;
     margin-right: auto;
 	
 	width: 1440px;
-	height: 400px;
+	height: auto;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -215,9 +215,9 @@ body {
 
 .our__story__inf {
 	font-size: 18px;
-	font-weight: bolder;
 	letter-spacing: .3rem;
-
+	font-weight: bold;
+	color: #48555B;
 	display: flex;
 	justify-content: center;
 }
@@ -233,15 +233,44 @@ body {
 
 /* Container for information */
 .container__for_info {
-	background: #ff5608;
-	width: 640px;
-	height: 181px;
+	background: #488dad;
+	width: 650px;
+	height: 200px;
 	margin-top: 116px;
 }
 
 .prewive__info__ {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	
-	font-weight: bold;
+	letter-spacing: .2px;
+	font-size: 35px;
+	color: #48555B;
+	font-weight: 600;
+	line-height: 40px;
+}
+
+.color__text {
+	color: #16ACE8;
+}
+
+.next__info__container {
+	background: #488dad;
+	width: 650px;
+	height: auto;
+	margin-top: 30px;
+}
+
+.next__info {
+	line-height: 35px;
+	font-size: 22px;
+	color: #48555B;
+}
+
+.possibilities__container {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 100px;
+	height: 100px;
+	background: #16ACE8;
 }
