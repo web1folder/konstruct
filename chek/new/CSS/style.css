@@ -194,6 +194,7 @@ body {
 
 /* Our story */
 .our__story__box {
+	position: relative;
 	background-color: #b1adad;
 	margin-top: 58px;
 	margin-left: auto;
@@ -268,9 +269,10 @@ body {
 .possibilities__container {
 	position: absolute;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+
 	width: 100%;
-	max-width: 100px;
-	height: 100px;
+	max-width: 700px;
+	height: 205px;
 	background: #16ACE8;
 }
