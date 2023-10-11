@@ -434,7 +434,6 @@ body {
 	border: 2px solid #E6E6E6;
 }
 
-
 .container__for__svg {
 	width: 100%;
 	max-width: 80px;
@@ -465,12 +464,12 @@ body {
 	margin-left: 25px;
 }
 
+/* Other for text */
 .services__container__text {
 	position: absolute;
 	margin-top: 120px;
 	width: 380px;
 	height: 80px;
-	background: #E6E6E6;
 }
 
 .services__text__info {
@@ -486,9 +485,73 @@ body {
 	display: flex;
 	justify-content: center;
 	position: absolute;
-	margin-top: 223px;
+	margin-top: 220px;
 	width: 100%;
 	max-width: 380px;
 	height: 140px;
+}
+
+.services__text__after {
+	font-size: 20px;
+	line-height: 30px;
+	margin-top: 10px;
+	color: #48555B;
+}
+
+/* For build */
+.container__for__build {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+
+	background: url(../img/bg/bg_footer.png) center no-repeat;
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container__for__build__text {
+	margin: 0 auto;
+	margin-top: -330px;
+	width: 100%;
+	max-width: 600px;
+	height: 72px;
+}
+
+.build__text__info {
+	text-align: center;
+	font-size: 60px;
+	line-height: 50px;
+	color: #48555B;
+}
+
+.bttn__for__touch {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
 	background: #00A4E5;
+	margin-top: 65px;
+	width: 230px;
+	height: 60px;
+	transition: all .3s ease;
+}
+
+.bttn__for__touch:hover {
+	background: #48555B;
+}
+
+.touch{
+	text-decoration: none;
+}
+
+.text__in__touch {
+	position: relative;
+	text-align: center;
+	margin-top: 22px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: .5px;
+	line-height: 16px;
+	color: #fff;
 }
