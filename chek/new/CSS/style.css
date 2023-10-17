@@ -183,7 +183,6 @@ body {
 	font-size: 13px;
 	text-decoration: none;
 	color: #48555B;
-	display: inline-block;
 	margin: 20px;
 	transition: .2s linear;
 }
@@ -571,11 +570,10 @@ body {
 }
 
 .newsletter__container__information {
+	position: relative;
 	margin: 0 auto;
 	width: 1000px;
 	height: 50px;
-
-	background: #4ea1c2;
 }
 
 .newsletter__container__text {
@@ -583,8 +581,6 @@ body {
 	width: 300px;
 	height: 40px;
 	margin-top: 5px;
-
-	background: #48555B;
 }
 
 .newsletter__text {
@@ -595,4 +591,187 @@ body {
 	font-size: 30px;
 	line-height: 25px;
 	letter-spacing: 1.5px;
+}
+
+.signup__container {
+	position: absolute;
+	top: -.5px;
+	right: 0;
+	width: 600px;
+	height: 50px;
+
+	background: #48555B;
+}
+
+.information input {
+	width: 400px;
+	height: 46px;
+	border: 1px solid #979797;
+	outline: none
+}
+
+input[type="text"]
+{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input::placeholder {
+	padding: 15px;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 1px;
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.information button {
+	float: right;
+	width: 194px;
+	height: 50px;
+
+	cursor: pointer;
+	background: #00A4E5;
+	font-size: 19px;
+	font-weight: bold;
+	letter-spacing: .5px;
+	line-height: 16px;
+	color: #fff;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	transition: all .3s ease;
+}
+
+.information button:hover {
+	background: #48555B;
+}
+
+/* Footer */
+.footer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 280px;
+	background: #141A20;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+/* Company start */
+.company__conteiner {
+	margin-left: 310px;
+	width: 300px;
+	height: 150px;
+}
+
+.start {
+	font-size: 14px;
+	line-height: 13px;
+	letter-spacing: .8px;
+}
+
+.logo__footer__container {
+	margin-top: 19px;
+	width: 100px;
+	height: 23px;
+}
+
+.lorem__footer__container {
+	margin-top: 15px;
+	width: 290px;
+	height: 76px;
+	font-size: 13px;
+	line-height: 18px;
+	letter-spacing: .8px;
+}
+
+/* Links middle */
+.links__container {
+	margin-left: 85px;
+	width: 370px;
+	height: 150px;
+}
+
+.links__footer__container {
+	margin-top: 10px;
+	width: 100px;
+	height: 125px;
+}
+
+.links__dec {
+	display: inline-block;
+	margin-top: 8px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #fff;
+}
+
+.faq__footer__container {
+	float: right;
+	width: 220px;
+	height: 125px;
+}
+
+.links__faq__container {
+	margin-top: 8px;
+	width: 80px;
+	height: 100px;
+}
+
+.links__blog__container {
+	position: absolute;
+	margin-left: 130px;
+	margin-top: 8px;
+	width: 90px;
+	height: 100px;
+}
+
+/* Contact */
+.contact__container {
+	margin-left: 160px;
+	width: 200px;
+	height: 200px;
+}
+
+.contacts__footer__container {
+	margin-top: 15px;
+	width: 150px;
+	height: 160px;
+}
+
+.baker {
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: .8px;
+}
+
+.phone {
+	margin-top: 20px;
+}
+
+.mail {
+	margin-top: 20px;
+}
+
+/* Social */
+.social__container {
+	margin-left: 40px;
+	width: 130px;
+	height: 20px;
+	margin-top: -120px;
+	color: #fff;
+}
+
+.facebook {
+	display: inline-block;
+}
+
+.twitter {
+	display: inline-block;
+	margin: 0 0 0 32px;
+}
+
+.google {
+	display: inline-block;
+	margin: 0 0 0 29px;
 }
